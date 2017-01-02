@@ -34,3 +34,5 @@ intercept._id = 'amdefine/intercept';
 if (!existingExtFn._id || existingExtFn._id !== intercept._id) {
     Module._extensions['.js'] = intercept;
 }
+
+module.exports = intercept;
